@@ -28,4 +28,4 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 sudo usermod -aG docker $USER
 
 
-echo -e "\nDocker installation completed. Please log out and log back in for group changes to take effect."
+printf "\n\n\033[38;5;208mDocker installation completed. Please log out and log back in for group changes to take effect.\033[0m\n"
