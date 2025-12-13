@@ -24,7 +24,8 @@ sudo apt update
 # Install the Docker packages
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 
-# Add your user to the docker group to run docker without sudo.
+# Create the group docker if it does not exist and add the current user to it
+sudo groupadd docker
 sudo usermod -aG docker $USER
 
 
