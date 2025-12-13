@@ -27,4 +27,5 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 # Add your user to the docker group to run docker without sudo.
 sudo usermod -aG docker $USER
 
- echo "Docker installation completed. Please log out and log back in for group changes to take effect."
+
+echo -e "\nDocker installation completed. Please log out and log back in for group changes to take effect."
